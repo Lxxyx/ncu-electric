@@ -2,10 +2,10 @@
 用于查询电费信息。昌大助手的组件。
 ## 运行方式
 ```javascript
-npm install ncu-electricity --save
+npm install ncu-electric --save
 ```
 ```
-var ele = require('ncu-electricity')
+var ele = require('ncu-electric')
 // 填写寝室号
 ele.getInfo(dormitory)
   .then(data => {
@@ -18,8 +18,8 @@ ele.getInfo(dormitory)
 将要查找的图书地址，放入一个json文件中即可。
 ## 开发
 ```
-git clone https://github.com/Lxxyx/ncu-electricity
-cd ncu-electricity
+git clone https://github.com/Lxxyx/ncu-electric
+cd ncu-electric
 npm install
 gulp
 ```
